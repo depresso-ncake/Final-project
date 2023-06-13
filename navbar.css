@@ -37,11 +37,11 @@
 
 
 /*Navigation Listing*/
-ul{
+.navbar ul{
     list-style-type: none;
  }
  
-ul a {
+.navbar ul a {
 margin: 0;
 padding:0;
 list-style:none;
@@ -50,14 +50,14 @@ list-style:none;
 
 
 
-li{
+.navbar li{
 float: left;
 list-style: none;
 display: inline-block;
 }
 
 
-li a{
+.navbar li a{
 color: #204352;
 font-size: 18px;
 margin-right: 25px;
@@ -82,7 +82,7 @@ button a{
 
 
 /*Animation Code for Nav. Listing*/
-a:link{
+.navbar a:link{
     color:rgb(255, 255, 255);
     text-decoration:none;
     display:block;
@@ -94,7 +94,7 @@ a:link{
     }
 
 
-a:hover{
+.navbar a:hover{
     text-decoration: underline;
     background-color: #5e747d
     }
