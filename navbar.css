@@ -66,14 +66,14 @@ margin-right: 25px;
 
 /*Button Code Below*/
 button{
-    background-color: rgb(94,116,125);
+    background-color: #F1E2DA;
     margin-left: 20px;
     border-radius: 10px;
 }
 
 
 button a{
-    color: white;
+    color: #204352;
     font-weight: bold;
     font-size: 15px;
 }
@@ -83,7 +83,7 @@ button a{
 
 /*Animation Code for Nav. Listing*/
 .navbar a:link{
-    color:rgb(255, 255, 255);
+    color:#204352;
     text-decoration:none;
     display:block;
     text-align:center;
@@ -96,7 +96,9 @@ button a{
 
 .navbar a:hover{
     text-decoration: underline;
-    background-color: #ffffff
+    background-color: #204352;
+    text-decoration-color: #feeeea;
+    color: #feeeea;
     }
 
 
