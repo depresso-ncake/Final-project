@@ -1,0 +1,28 @@
+body{
+    margin:0;
+    font-family: inherit;
+    color: black;
+}
+
+.section{
+    display:flex;
+    justify-content: space-between;
+    padding:40px;
+    width:40px
+}
+
+.section img{
+    height:250px;
+}
+
+img{
+    float:left;
+}
+
+.section h1{
+    margin:0;
+}
+
+.section h4{
+    margin:0;
+}
