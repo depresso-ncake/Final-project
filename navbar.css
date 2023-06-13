@@ -3,29 +3,24 @@
     animation-delay: none;
     font-size: large;
     color: white;
-    justify-content: space-between;
-    display: flex;
-    flex-direction: row;
-    letter-spacing: 10px;
-    position: left;
 }
+
 
 .logopic{
     position:left;
     height:70px;
-    justify-content: space-between;
 }
 
 /*Navigation Code Below*/
 .navbar{
-    background-color:#f5e7ca;
+    background-color:#F1E2DA;
     font-family: inherit;
     padding-right: 15px;
     padding-left: 15px;
     width: 1111x;
     overflow:auto;
-    display: flex;
 }
+
 
 .navdiv{
     display: inline;
@@ -34,83 +29,39 @@
     justify-content: space-between;
 }
 
-
-/*Dropdown Lines At The End*/
 .toggle_btn {
-    color: #5e747d;
+    color: #204352;
     font-size: 2em;
     cursor: pointer;
-    display: grid;
-    align-items: center;
-    justify-content: space-between;
-    margin-right: 50px;
-}
-
-.navbar ul button {
-    margin-right: 166px;
-}
-
-/*Links in nav bar*/
-.Home{
-    display:inline-block;
-
-}
-
-.fa.fa-fw.fa-home{
-    display:inline-block;
-}
-
-.Profiles{
-    display:inline-block;
-}
-
-.fa.fa-fw.fa-user{
-    display:inline-block;
-}
-
-.Get_Involved{
-    display:inline-block;
-}
-
-.fa.fa-fw.fa-envelope{
-    display:inline-block;
-}
-
-.Contact_btn{
-    display:inline-block;
 }
 
 
 /*Navigation Listing*/
 ul{
     list-style-type: none;
-    display: inline;
  }
  
 ul a {
 margin: 0;
 padding:0;
 list-style:none;
-display: inline;
  }
+
+
 
 
 li{
 float: left;
 list-style: none;
 display: inline-block;
-display: inline;
 }
 
 
 li a{
-color: white;
+color: #204352;
 font-size: 18px;
 margin-right: 25px;
-display: inline;
 }
-
-
 
 
 /*Button Code Below*/
@@ -160,12 +111,8 @@ a:hover{
     display: inline-block;
     list-style: none;
     margin-right: 25px;
-  }
 
-.active_btn{
-    display:inline;
-    display:inline-block;
-}
+  }
 
 /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
 @media screen and (max-width: 500px) {
