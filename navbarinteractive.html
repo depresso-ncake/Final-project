@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Navigation Bar</title>
+    <body style="background-color:#a4c7d5;"></body>
+    <link rel="stylesheet"  href="./navbarinteractive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style type="text/css">
+        *{
+            text-decoration: none;
+        }
+       
+</style>    
+</head>
+
+
+<body>
+    <!-- THIS IS THE NAVIGATION BAR-->
+    <nav class="navbar">
+        <div class="navdiv"></div>
+        <div class="logopic"><img src="./Logo Picture/women in tech (no boarder, clear backgroud).png" class="logopic"></div>
+             <ul>
+
+                <li><a href="Home"><i class="fa fa-fw fa-home"></i>Home</a></li>
+                <li><a href="Profile"><i class="fa fa-fw fa-user"></i>Profiles</a></li>
+                <li><a href="Get_Involved"><i class="fa fa-fw fa-envelope"></i>Get Involved</a></li>
+                <button><a href="Contact_btn">Contact Us</a></button>
+            </ul>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div> 
+    </nav>
+</body>
+    <script>
+        <div class="active_btn"></div>
+        const toggleBtn = document.querySelector('.toggle_btn')
+        const toggleBtnIcon = document.querySelector('.toggle_btn i')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
+        
+        togglebutton.onclick = function () {
+           dropDownMenu.classlist.toggle('open')
+           const isOpen = dropDownMenu.classList.contain('open')
+        
+           toggleBtnIcon.classList = isOpen
+           ? 'fa-solid fa-xmark'
+           : 'fa-solid fa-bars'
+        }
+    </script>
+
+</html>
